@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodejs index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -19,6 +19,7 @@
     "mysql2": "^1.6.5",
     "node-pre-gyp": "^0.13.0",
     "nodemon": "^1.19.1",
+    "pg": "^7.12.1",
     "sequelize": "^5.15.0",
     "sequelize-cli": "^5.5.0"
   }
